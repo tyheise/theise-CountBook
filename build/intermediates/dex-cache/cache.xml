@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\fa2ce99f0c56a3aa9f27c7a64181b8d345e9de94\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f8fc92e7e431e886416a76addfa417eb2c9dfbbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\a5cb85d5bc914b9e92537b36e8f2d15166a80d9e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0f5a34f9803fc8b84f4fda9908b020820284ddce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\873ef5cc721d724a7937533c5b2791d5dc6307fb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96fbb2e766f76cfecd9f99f81209719e94dd4dc6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\05ced889bff33a81c18413c8c5dbfc5258eed84f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f28a1add068b13648fde4374eb87ad48d46843da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.2\3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf\gson-2.8.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3edcfe49d2c6053a70a2a47e4e1c2f94998a49cf">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.2_91349cbc8be06e9e67bf6186fc7b68556ac7485c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\390ebd92973d92f61ff159d98846e46b05effdf5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf58b0f2ac3ada0d40f1f14a2eb61ffb43295cfd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\ec9fd9cd1e597ab7b3f807e05d30e7a551adc7ff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ddc88c4b5aadf48ee926856913afb5ed9ad2c5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bc6ce8573073d7d6d3aff484673fcd6540889fd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="46e6b97767e565844192f274ee9857c3b9c5d1fe">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8fb64002d5e46a0588e2fd7182bf584f4f04bd45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_a86a34c337834deaedfa909d601f17843620e59c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\71ef0fb539b86fd5b6528d34336e85c8f0a03723\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66864d4eaa1564c73594cafa8ca7c1ee26c16787\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\.android\build-cache\20a010e3034fb31193840da28911534900ae39d8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60d2391e1be5a58fe4d15d009b76297607c0d019\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ty\AndroidStudioProjects\theise-CountBook\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d19c81d9f8e602f171a9da1aeafb753d1181fd9f\classes.dex" />
+    </item>
+
+</items>
