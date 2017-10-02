@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Ty\\.android\\build-cache\\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Ty\\.android\\build-cache\\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Ty\\.android\\build-cache\\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Ty\\.android\\build-cache\\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Ty\\.android\\build-cache\\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Ty\\.android\\build-cache\\5f04923153e6a9c73bb0f8291fdd3f5b484f72e3\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    }
+]

@@ -1,0 +1,7 @@
+#Sat Sep 30 22:00:19 MDT 2017
+base.0=C\:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8fb64002d5e46a0588e2fd7182bf584f4f04bd45
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d19c81d9f8e602f171a9da1aeafb753d1181fd9f\\classes.dex
+base.1=C\:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d19c81d9f8e602f171a9da1aeafb753d1181fd9f
+file.0=C\:\\Users\\Ty\\AndroidStudioProjects\\theise-CountBook\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_8fb64002d5e46a0588e2fd7182bf584f4f04bd45\\classes.dex

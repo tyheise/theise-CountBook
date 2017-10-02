@@ -16,7 +16,6 @@ import com.google.gson.reflect.TypeToken;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -29,7 +28,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     private static final String FILENAME = "file.sav";
-    //private String alert_title = "";
 
     private EditText name;
     private EditText inValue;
@@ -44,8 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
     private Counter updCounter;
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,12 +54,17 @@ public class MainActivity extends AppCompatActivity {
         Button saveButton = (Button) findViewById(R.id.save);
         oldCounterList = (ListView) findViewById(R.id.counterListView);
 
+        /* checks if a counter is selected on the listview, if so it counverts the selected counter
+        * object to a json and passes it to the counter activity */
+
         oldCounterList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
+                /* Track the array index of the selected counter */
                 updIdx = i;
+
                 Object objS = oldCounterList.getItemAtPosition(i);
                 Counter sCounter = (Counter)objS;
 
@@ -77,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        /* checks if save button is pressed if so, make a new counter with the input values and
+        * add it to our counter list */
         saveButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
@@ -85,6 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 String strName = name.getText().toString();
                 String strInValue = inValue.getText().toString();
 
+                /* checks if values are null */
                 if (strName.length() != 0 & strName.length() < 50) {
                     if (strInValue.length() != 0) {
 
@@ -102,10 +106,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+    /* this function is called after the counter activity finishes. It takes the json passed to it
+        * form the counter activity and converts it back to counter form. If the counter is returned as
+        * null it deletes it, otherwise it updates the list */
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
         if (requestCode == 1 && resultCode == RESULT_OK && data != null) {
+
             String target = data.getStringExtra("CounterAsString");
             Gson gson = new Gson();
             updCounter = gson.fromJson(target, Counter.class);
@@ -174,17 +182,4 @@ public class MainActivity extends AppCompatActivity {
             throw new RuntimeException();
         }
     }
-    private void deleteCounters() {
-        counterList.clear();
-
-        File file = getFilesDir();
-        //
-
-        // String path = Context.getFilesDir().getAbsolutePath();
-
-        File file_del = new File (file, FILENAME);
-        file_del.delete();
-        //adapter.notifyDataSetChanged();
-    }
-
 }

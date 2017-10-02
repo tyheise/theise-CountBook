@@ -10,6 +10,7 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 
+/* The Activity that displays and allows editing of the Counter's details  */
 public class CounterActivity extends AppCompatActivity {
 
     public Counter sCounter;
@@ -45,11 +46,17 @@ public class CounterActivity extends AppCompatActivity {
 
         date = (TextView) findViewById(R.id.dateView);
 
+        /* Gets the Counter object in json form from the main activity */
         String target = getIntent().getStringExtra("CounterAsString");
 
+
         if (target != null) {
+
+            /* Convert json back to normal object form */
             Gson gson = new Gson();
             sCounter = gson.fromJson(target, Counter.class);
+
+            /* display Counter details on screen */
             name.setText(sCounter.getName());
             currValue.setText(Integer.toString(sCounter.getCurrValue()));
             inValue.setText(Integer.toString(sCounter.getInValue()));
@@ -57,11 +64,15 @@ public class CounterActivity extends AppCompatActivity {
             date.setText((sCounter.getDate()).toString());
         }
 
+        /* checks if name has been saved */
         nameButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setResult(RESULT_OK);
+
                 String newName = (name.getText()).toString();
+
+                /* makes sure name is new and not null */
                 if (!(sCounter.getName().equals(newName))) {
                     if (newName.length() != 0 & newName.length() < 50) {
                         sCounter.setName(newName);
@@ -153,6 +164,10 @@ public class CounterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setResult(RESULT_OK);
+
+                /* if delete is called set the counter object to null and exit the activity
+                    returning the null counter */
+
                 sCounter = null;
 
                 Gson gS = new Gson();
@@ -169,6 +184,7 @@ public class CounterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setResult(RESULT_OK);
+                /* if done is called return the new counter so we can update the list */
 
                 Gson gS = new Gson();
                 String strCounter = gS.toJson(sCounter);
